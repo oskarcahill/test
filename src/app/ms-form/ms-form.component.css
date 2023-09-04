@@ -1,0 +1,23 @@
+/* Center the title */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  .container {
+    background-color: #000;
+    color: #822492;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This will make the container fill the entire viewport height */
+  }
+  
+  iframe {
+    width: 80%; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+  }
